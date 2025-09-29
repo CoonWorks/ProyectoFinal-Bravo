@@ -132,13 +132,13 @@ const generarNota = (texto = "", titulo = "") => {
 }
 
 const guardarNota = () => {
-    const notitas = document.querySelectorAll(".nota .main-txt");
     const titulos = document.querySelectorAll(".nota .titulo-txt");
+    const notitas = document.querySelectorAll(".nota .main-txt");
     const arrayNota = [];
 
     notitas.forEach((notas, index) => {
-        const mainTxt = notas.value;
         const titTxt = titulos[index].value;
+        const mainTxt = notas.value;
         if(mainTxt.trim() !== ""){
             arrayNota.push({ titTxt, mainTxt });
         }
@@ -154,7 +154,7 @@ function cargarNota(){
     const dataTitulos = JSON.parse(localStorage.getItem("Titulos")) || [];
     const dataTxt = JSON.parse(localStorage.getItem("Contenido")) || [];
     for(let i = 0; i < Math.max(dataTitulos.length, dataTxt.length); i++){
-        generarNota(dataTitulos[i],dataTxt[i]);
+        generarNota(dataTxt[i],dataTitulos[i]);
     }
 }
 cargarNota();
