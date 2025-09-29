@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+    background-color: #430a72;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#botonAdd, #botonDel{
+    position: fixed;
+    top: 1rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: 1.5rem;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+#botonAdd{
+    left: 1rem;
+    background-color: #5bdadf;
+}
+
+#botonDel{
+    left: 15rem;
+    background-color: #810000;
+    color: white;
+}
+
+.barratop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 0px;
+}
+
+.nota {
+    width: 45%;
+    height: 30rem;
+    background-color: #f5bc00;
+    margin: 5.5rem 1.5rem 3rem 2rem;
+    border-radius: 2.5rem;
+}
+
+.icono {
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+.icono i{
+    cursor: pointer;
+}
+
+.nota textarea {
+    border: none;
+    width: 100%;
+    height: 85%;
+    resize: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.titulo-div textarea {
+    border-radius: 0px;
+    margin-bottom: -0.4rem;
+    background-color: #c28400;
+    font-weight: bolder;
+    font-size: x-large;
+    height: 5rem;
+    color: black;
+}
+
+.headApp {
+    position: fixed;
+    margin-top: 4rem;
+    color: #e8e8e8;
+    text-transform: uppercase;
+    font-size: 2rem;
+    top:-3.75rem;
+}
+
+.nota textarea:focus {
+    border: 0;
+    outline: 0;
+}
