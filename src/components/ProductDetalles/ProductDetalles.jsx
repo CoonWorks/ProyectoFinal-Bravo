@@ -28,7 +28,7 @@ const ProductDetalles = ({ product }) => {
                     verProductCount ? (
                         <ProductCount stock={product.stock} aniadirAlCarro={aniadirAlCarro} />
                     ) : (
-                        <Link to="/carrito">
+                        <Link className="boton-carrito" to="/carrito">
                             <button>Ir al carrito</button>
                         </Link>
                     )

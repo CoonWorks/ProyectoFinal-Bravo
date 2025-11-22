@@ -1,0 +1,28 @@
+.formu-checkout{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.input{
+    width:300px;
+    height:40px;
+    margin-right: 10px;
+}
+
+.enviar{
+    height:40px;
+    width:200px;
+    background-color:black;
+    border:1px solid white;
+    color:white;
+    border-radius: 5px;
+}
+
+.enviar:hover{
+    background-color: rgb(0,0,30);
+    color:rgb(0,129,235);
+    border-color:rgb(0,129,235);
+}
