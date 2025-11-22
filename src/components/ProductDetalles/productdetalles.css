@@ -1,0 +1,34 @@
+.detalle-producto{
+    width: 100%;
+    display: flex;
+}
+
+.detalle-producto-imagen-cont{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-producto-imagen{
+    width: 30%;
+}
+
+.producto-detalle-cont-texto{
+    width: 50%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.producto-detalle-texto{
+    padding: 50px 0;
+    font-size: 40px;
+    color: rgb(0, 129, 235);
+}
+
+.producto-detalle-texto-desc{
+    font-size: 20px;
+    color: rgb(220, 220, 220);
+}

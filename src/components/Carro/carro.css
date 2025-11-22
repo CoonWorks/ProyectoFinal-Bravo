@@ -1,0 +1,132 @@
+.carro{
+    padding: 30px;
+}
+
+.titulo-carro{
+    padding: 20px 0;
+}
+
+.carro .item-carro{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid rgb(0, 162, 235);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.img-item-carro{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.borrar-item-carro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid rgb(0, 162, 235);
+    border-radius: 5px;
+    color: rgb(0, 162, 235);
+    font-size: 20px;
+}
+
+.borrar-item-carro:hover{
+    cursor: pointer;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(0,162,235);
+    color: rgb(0,162,235);
+}
+
+.info-carro{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.texto-info-carro{
+    padding: 10px 0;
+}
+
+.boton-cont-carro{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(0,162,235);
+    border-radius: 5px;
+    color: rgb(0,162,235);
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.boton-cont-carro:hover{
+    cursor: pointer;
+    background-color: rgb(0,0,60);
+    border: 1px solid rgb(0,162,235);
+    color: rgb(0,162,235);
+}
+
+.boton-borrar-carro{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(0,162,235);
+    border-radius: 5px;
+    color: rgb(0,162,235);
+    font-size: 20px;
+}
+
+.boton-borrar-carro:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 60);
+    border: 1px solid rgb(0,162,235);
+}
+
+.carro-vacio{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.boton-carro-vacio{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(42, 42, 42);
+    border: 2px solid #1b8246;
+    border-radius: 5px;
+    color: rgb(46, 204, 113);
+}
+
+.boton-a-carro{
+    margin: 20px 0;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 45, 6);
+    border: 1px solid rgb(159, 235, 144);
+    border-radius: 5px;
+    color: rgb(124, 203, 127);
+    font-size: 20px;
+}

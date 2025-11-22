@@ -1,0 +1,48 @@
+.product {
+    border-radius: 2px;
+    width: 350px;
+    height: 500px;
+    list-style: none;
+    margin: 20px 40px;
+    font-size: 20px;
+}
+
+.product-contenedor-img {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        circle,
+        rgba(67, 67, 67, 0.6) 20%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.product-img {
+    width: 80%;
+}
+
+.product-texto {
+    height: 40%;
+    background-color: rgb(31,31,31);
+    padding: 20px 15px;
+}
+
+.product-titulo {
+    margin: 0 0 40px 0;
+}
+
+.product-precio {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.product-boton {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(88, 180, 255);
+    margin-left:25%;
+}
